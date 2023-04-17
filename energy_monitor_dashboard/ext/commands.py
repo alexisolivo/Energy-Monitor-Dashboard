@@ -1,8 +1,8 @@
 import click
 
-from project_name.ext.auth import create_user
-from project_name.ext.database import db
-from project_name.models import Product
+from energy_monitor_dashboard.ext.auth import create_user
+from energy_monitor_dashboard.ext.database import db
+from energy_monitor_dashboard.models import Product
 
 
 def create_db():

@@ -1,9 +1,9 @@
 import sys
 import pytest
 
-from project_name import create_app
-from project_name.ext.commands import populate_db
-from project_name.ext.database import db
+from energy_monitor_dashboard import create_app
+from energy_monitor_dashboard.ext.commands import populate_db
+from energy_monitor_dashboard.ext.database import db
 
 
 @pytest.fixture(scope="session")
